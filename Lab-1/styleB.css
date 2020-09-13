@@ -1,0 +1,26 @@
+body{
+    font-family: tahoma;
+    font-size: 40px;
+    padding: 0;
+    margin-left: 0;
+}
+.flexcontainer{
+    display: flex;
+
+}
+.odd{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.flexcontainer>div{
+    width: 100px;
+    height: 150px;
+    background-color:  #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    margin-left: 10px;
+}
+.flexcontainer>div:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
